@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: solid;
+        }
+        th{
+            border: solid;
+        }
+        tr{
+            border: solid;
+        }
+        td{
+            border: solid;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="o_nama.html">O nama</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+    <h1>Kontakt informacije</h1>
+    <p>Naša ekipa je uvijek otvorena za suradnju i vrlo rado ćemo odgovoriti na sva vaša pitanja</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Redni Broj</th>
+                <th>Ime i prezime</th>
+                <th>Adresa</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Meris Bećović</td>
+                <td>Sumarak skriveni</td>
+                <td>meris.becovic@eestec-sa.ba</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Meris Bećović</td>
+                <td>Sumarak skriveni</td>
+                <td>meris.becovic@eestec-sa.ba</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Meris Bećović</td>
+                <td>Sumarak skriveni</td>
+                <td>meris.becovic@eestec-sa.ba</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Meris Bećović</td>
+                <td>Sumarak skriveni</td>
+                <td>meris.becovic@eestec-sa.ba</td>
+            </tr>
+        </tbody>
+        <tfoot>
+                <th>Redni Broj</th>
+                <th>Ime i prezime</th>
+                <th>Adresa</th>
+                <th>Email</th>
+        </tfoot>
+    </table>
+
+    <h2>
+        <strong>Postavite nam pitanje:</strong>
+    </h2>
+    <form>
+        <label for="ime">Ime i prezime: </label>
+        <input id="ime" type="text" placeholder="John Doe" >
+        <br>
+        <p><strong>Spol:</strong></p>
+        <label for="spol" >Muski</label>
+        <input type="radio" name="spol">
+        <label for="spol">Zenski</label>
+        <input type="radio" name="spol">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="userename@provider.com">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="" id="password">
+        <br>
+        <label for="selekt">O cemu se radi</label>
+        <select id="selekt">
+            <option value="1">Pohadjanje kursa</option>
+            <option value="2">Zalba na organizaciju</option>
+            <option value="3">Ipsis s kursa</option>
+        </select>
+        <br>
+        
+        <label for="pitanje">Vase pitanje</label>
+        <textarea id="pitanje" cols="30" rows="10">Ovdje upisite tekst vaseg pitanja</textarea>
+        <br>
+
+        <label for="1">Slazem se s uslovima koristenja</label>
+        <input type="checkbox" name="nije bitno" id="1">
+        <br>
+        <label for="2">Zelim da mi saljete mejlove svaki treci dan koje nikada necu procitati</label>
+        <input type="checkbox" name="nije bitno" id="2">
+        <br>
+        <label for="3">I da se Ekrem makne iz kuhinje</label>
+        <input type="checkbox" name="nije bitno" id="3">
+        <br>
+
+
+        <button type="submit">Pitaj!</button>
+    </form>
+
+</body>
+</html>
