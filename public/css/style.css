@@ -1,0 +1,65 @@
+/* h1{
+    color: cadetblue;
+    font-size: 40px;
+    padding-top: 3cm;
+    padding-bottom: 3cm;
+    font-style: italic;
+}
+#paragraf-1{
+    color:blue;
+    background:azure;
+}
+.crvena{
+    color:red;
+}
+.velicina-16{
+    font-size: 160px;
+}
+
+*{
+    background-color: aquamarine;
+} */
+/* 
+img[src="public/img/meris.jpg"]{
+    width:60%;
+    height: 60%;
+    display:block;
+}
+
+h1~p{
+    color:green;
+}
+
+ul a{
+    color: greenyellow;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap');
+
+
+*{
+    background-color: #f2f2f2;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-size: 10vh;
+    color: #555555;
+}
+
+.centar{
+    text-align: center;
+}
+
+.inline{
+    display:inline;
+}
+
+.inline > p{
+    border:0px;
+    
+}
+
+#upozorenje{
+    padding-top: 10%;
+}
